@@ -35,10 +35,10 @@ router.post("/", async (req, res) => {
   // create a new category
  try { 
   const category = await Category.create(req.body);
-  const { productIds } = req.body;
+  const { productId } = req.body;
 
-  if (productIds) {
-    await category.addProducts(productIds);
+  if (productId) {
+    await category.addProduct(productId);
   }
   res.json({ message: "Successfuly created category" });
 } catch (err) {

@@ -17,4 +17,5 @@ Once that is done, you'll be able to manipulate the database however you like by
 ## Tests
 If you would not like to create every single product, tag, and category yourself, there are included seeds files that can be used. To seed the database, run the index.js file within the seeds directory using ```node [PATH TO seeds/index.js]```.
 
-## Walkthrough Video
+### Walkthrough Video
+[Link to Video](https://drive.google.com/file/d/1P7zbx65-zHVDT-2Oz9B69zibzLVAFjxx/view)
